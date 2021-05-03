@@ -5,7 +5,7 @@
 import Plotly from "plotly.js-dist";
 import events from "./events.js";
 import methods from "./methods.js";
-import { camelize } from "@/utils/helper";
+import { camelize } from "../utils/helper";
 
 const directives = {};
 if (typeof window !== "undefined") {
